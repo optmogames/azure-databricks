@@ -7,9 +7,11 @@
 # COMMAND ----------
 
 # MAGIC %md
-# MAGIC 
+# MAGIC https://docs.azuredatabricks.net/user-guide/secrets/secret-scopes.html  
 # MAGIC https://docs.azuredatabricks.net/user-guide/dev-tools/databricks-cli.html
 # MAGIC 
+# MAGIC pip install pip install databricks-cli
+# MAGIC <br>
 # MAGIC databricks secrets create-scope --scope az-bs-abfsowshq 
 # MAGIC <br>
 # MAGIC databricks secrets list-scopes 
@@ -56,6 +58,3 @@ display(dbutils.fs.ls("/mnt/prod-files"))
 
 dbutils.fs.unmount("/mnt/stg-files")
 dbutils.fs.unmount("/mnt/prod-files")
-
-# COMMAND ----------
-
