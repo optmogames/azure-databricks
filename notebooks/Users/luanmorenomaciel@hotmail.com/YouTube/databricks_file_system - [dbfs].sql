@@ -14,6 +14,10 @@
 
 -- COMMAND ----------
 
+-- MAGIC %fs head "dbfs:/mnt/brzluanmoreno/autos-data/autos_0.csv"
+
+-- COMMAND ----------
+
 -- MAGIC %fs ls "dbfs:/databricks-datasets/"
 
 -- COMMAND ----------
@@ -21,7 +25,6 @@
 -- MAGIC %fs
 -- MAGIC 
 -- MAGIC mkdirs "dbfs:/new-data-sql"
--- MAGIC ls "dbfs:/"
 
 -- COMMAND ----------
 
