@@ -43,7 +43,7 @@
 -- MAGIC     .format("csv")
 -- MAGIC     .option("header","true")
 -- MAGIC     .option("inferSchema", "true")
--- MAGIC     .load("dbfs:/mnt/brzluanmoreno/autos-data")
+-- MAGIC     .load("dbfs:/mnt/brzluanmoreno/autos-data/")
 
 -- COMMAND ----------
 
@@ -119,6 +119,35 @@ LIMIT 15;
 -- COMMAND ----------
 
 EXPLAIN EXTENDED SELECT brand, model, COUNT(*) AS Q FROM dbo.stg_autos GROUP BY brand, model ORDER BY Q DESC LIMIT 15;
+
+-- COMMAND ----------
+
+SELECT brand,
+       SUM(price) AS price
+FROM stg_autos
+GROUP BY brand
+LIMIT 3;
+
+-- COMMAND ----------
+
+SELECT vehicleType,
+       SUM(price) AS price
+FROM stg_autos
+GROUP BY vehicleType
+LIMIT 3;
+
+-- COMMAND ----------
+
+SELECT MONTH(dateCrawled) AS month,
+       YEAR(dateCrawled) AS year,
+       DAY(dateCrawled) AS day,
+       SUM(price) AS price,
+       vehicleType,
+       brand,
+       COUNT(*) AS Q
+FROM stg_autos
+GROUP BY MONTH(dateCrawled), YEAR(dateCrawled), DAY(dateCrawled), vehicleType, brand
+ORDER BY Q DESC
 
 -- COMMAND ----------
 
