@@ -10,3 +10,24 @@
 
 -- COMMAND ----------
 
+-- MAGIC %fs ls
+
+-- COMMAND ----------
+
+-- MAGIC %fs ls "dbfs:/databricks-datasets/"
+
+-- COMMAND ----------
+
+-- MAGIC %fs
+-- MAGIC 
+-- MAGIC mkdirs "dbfs:/new-data-sql"
+-- MAGIC ls "dbfs:/"
+
+-- COMMAND ----------
+
+-- MAGIC %fs 
+-- MAGIC 
+-- MAGIC ls "dbfs:/mnt/brzluanmoreno/"
+
+-- COMMAND ----------
+
