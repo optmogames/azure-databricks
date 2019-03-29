@@ -4,6 +4,12 @@ Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver")
 
 // COMMAND ----------
 
+// MAGIC %md
+// MAGIC 
+// MAGIC ##### Secrets = https://docs.azuredatabricks.net/user-guide/secrets/index.html
+
+// COMMAND ----------
+
 // DBTITLE 1,Creating JDBC URL Connection
 val jdbcHostname = "azowshq.database.windows.net"
 val jdbcPort = 1433
