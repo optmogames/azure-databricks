@@ -29,7 +29,6 @@ Azure Databricks Demos
 
 Day 01:
 
-- Overview
 - DS Fundamentals (5W2H)
   - Data Science (What?)
   - Cases (Why?)
@@ -38,6 +37,10 @@ Day 01:
   - Data Scientist (Who?)
   - Tools (How?)
   - Career (How much?)
+- Overview
+  - Trend & Hype
+  - Comparisons
+  - Machine Learning Lifecycle
 - DS 101
   - Correlation
   - Linear Regression (Regression)
@@ -53,15 +56,20 @@ Day 01:
 
 Day 02:
 
-- Review
+- Review & Hands-on
 - DS 201
-  - Naive Bayes
+  - Dataset
   - Text Mining
+  - Naive Bayes
 - DS 202
   - Model Selection
   - Hyper parametrization
-- Databricks ML
-- Cognitive Services
+  - Model Evaluation
+- DS 302
+  - Databricks ML
+  - Third Parties ML
+  - Cognitive Services
+- Hands-on
 
 
 ### Reference
