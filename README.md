@@ -31,16 +31,35 @@ Day 01:
 
 - DS Fundamentals (5W2H)
   - Data Science (What?)
-  - Cases (Why?)
+    - Scientific Method
+    - Analytics
   - Knowledge Area (Where?)
+    - Computer Science
+    - IA
+    - Machine Learning
   - Context (When?)
+    - Cloud
+    - Big Data
+  - Cases (Why?)
+    - Classification
+    - Regression
+    - Clustering
+    - Generalization
+    - Association
   - Data Scientist (Who?)
+    - Data Scientist vs Data Engineering
+    - Data Scientist vs All
   - Tools (How?)
+    - R
+    - Python
+    - Scala
+    - Spark
+    - Databricks
+    - Koalas
   - Career (How much?)
-- Overview
-  - Trend & Hype
-  - Comparisons
-  - Machine Learning Lifecycle
+    - Trend & Hype
+    - How to become one
+    - Suggestions
 - DS 101
   - Correlation
   - Linear Regression (Regression)
@@ -48,19 +67,24 @@ Day 01:
 - DS 102
   - Similarity
   - KNN (Supervised)
-  - KMeans (Non-supervised)
+  - KMeans (Clustering)
 - DS 103
+  - PCA (Generalization)
+  - Apriori (Association
+- DS 104
   - Attribute Selection
   - Cross Validation
   - Metrics
 
 Day 02:
 
-- Review & Hands-on
 - DS 201
-  - Dataset
-  - Text Mining
-  - Naive Bayes
+  - Machine Learning Lifecycle
+  - Dataset (Raw Data)
+  - Text Mining (Data Prep)
+  - Naive Bayes (Training)
+  - Model Export (Deployment)
+  - Review & Examples
 - DS 202
   - Model Selection
   - Hyper parametrization
@@ -69,7 +93,8 @@ Day 02:
   - Databricks ML
   - Third Parties ML
   - Cognitive Services
-- Hands-on
+- Hands-on 01
+- Hands-on 02
 
 
 ### Reference
