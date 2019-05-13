@@ -149,6 +149,6 @@ Vocabulary
 **Data-driven:**  
 **Analytics:**  
 **Predictive:**  
-**Churn:**   
+**Churn:**  Customers switching from one company to another.
 
 ---
