@@ -144,6 +144,8 @@ Vocabulary
 **Data Science:** is a set of fundamental principles that guide the extraction of knowledge from data.  
 **Data Mining:** is the extraction of knowledge from data, via technologies that incorporate data science principles.  
 **Data Scientist:**  
+**Data Munging:** Same as Data Wrangling. 
+**Data Wrangling:** is the process of transforming and mapping data from one "raw" data form into another format with the intent of making it more appropriate and valuable for a variety of downstream purposes such as analytics.(Wikipedia)
 **Similarity:**  
 **Lift:** How much more prevalent a pattern is than would be expected by chance.  
 **Data-driven:**  
